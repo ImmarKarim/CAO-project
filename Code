@@ -1,0 +1,23 @@
+int arr[]={13,12,14,27,26,25,33,32};
+void setup(){
+  for(int i=0;i<10;i++){
+    pinMode(arr[i],OUTPUT);
+  }
+}
+
+void loop(){
+   for(int i=0;i<4;i++){
+    digitalWrite(arr[i],HIGH);
+    digitalWrite(arr[7-i],HIGH);
+    delay(1000);
+    digitalWrite(arr[i],LOW);
+    digitalWrite(arr[7-i],LOW);
+  }
+  for(int i=4;i>=0;i--){
+    digitalWrite(arr[i],HIGH);
+    digitalWrite(arr[7-i],HIGH);
+    delay(1000);
+    digitalWrite(arr[i],LOW);
+    digitalWrite(arr[7-i],LOW);
+  }
+}
