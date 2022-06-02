@@ -1,0 +1,12 @@
+I have used the followng hardware & softwares for the project:
+
+
+ESP - 32
+LED Lights
+Male - Male wires
+Ultrasonic motion detector
+Ardiuno IDE
+Breadboards
+
+
+Toatl Cost: about PKR 1600
